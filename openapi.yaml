@@ -986,12 +986,10 @@ components:
           type: string
           x-skaffolder-id-attr: 5f01a5616b4b5c069354ede0
           x-skaffolder-type: String
-          x-skaffolder-required: true
         name:
           type: string
           x-skaffolder-id-attr: 5f01a5616b4b5c069354ede1
           x-skaffolder-type: String
-          x-skaffolder-required: true
         password:
           type: string
           x-skaffolder-id-attr: 5f01a5616b4b5c069354eddf
@@ -1001,22 +999,18 @@ components:
           type: string
           x-skaffolder-id-attr: 5f01ec0d6b4b5c069354ef44
           x-skaffolder-type: String
-          x-skaffolder-required: true
         roles:
           type: string
           x-skaffolder-id-attr: 5f01a5616b4b5c069354ede3
           x-skaffolder-type: String
-          x-skaffolder-required: true
         state:
           type: string
           x-skaffolder-id-attr: 5f01ec0d6b4b5c069354ef43
           x-skaffolder-type: String
-          x-skaffolder-required: true
         surname:
           type: string
           x-skaffolder-id-attr: 5f01a5616b4b5c069354ede2
           x-skaffolder-type: String
-          x-skaffolder-required: true
         town:
           type: string
           x-skaffolder-id-attr: 5f01ec0d6b4b5c069354ef42
@@ -1029,13 +1023,7 @@ components:
       x-skaffolder-relations: 
       required:
         - _id
-        - mail
-        - name
         - password
-        - postCode
-        - roles
-        - state
-        - surname
         - username
     brands:
       x-skaffolder-id: 5f01ed406b4b5c069354ef59

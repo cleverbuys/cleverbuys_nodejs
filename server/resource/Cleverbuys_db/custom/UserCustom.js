@@ -18,32 +18,26 @@ const properties = require('../../../properties.js');
 			type: 'Number'
 		},
 		mail: {
-			type: 'String', 
-			required : true
+			type: 'String'
 		},
 		name: {
-			type: 'String', 
-			required : true
+			type: 'String'
 		},
 		password: {
 			type: 'String', 
 			required : true
 		},
 		postCode: {
-			type: 'String', 
-			required : true
+			type: 'String'
 		},
 		roles: {
-			type: 'String', 
-			required : true
+			type: 'String'
 		},
 		state: {
-			type: 'String', 
-			required : true
+			type: 'String'
 		},
 		surname: {
-			type: 'String', 
-			required : true
+			type: 'String'
 		},
 		town: {
 			type: 'String'
